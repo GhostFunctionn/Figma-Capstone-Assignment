@@ -17,5 +17,71 @@ nav {
 
 h1,
 p {
-  color: white;
+  color: #f6f7f1;
+}
+
+#header-text {
+  margin-top: 205px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.15rem;
+  line-height: 48px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#header-paragraph {
+  margin: 25px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+#header-button-div {
+  display: flex;
+  padding-bottom: 256px;
+}
+#header-button-text {
+  margin: 0 auto;
+  color: #f6f7f1;
+  background-color: #f14c36;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6f7f1;
+}
+
+#main-img {
+  padding: 44px 50px 44px 50px;
+}
+
+#main-header {
+  color: #29182e;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.orange-span {
+  color: #f14c36;
+}
+
+.green-span {
+  color: #436b2c;
 }
