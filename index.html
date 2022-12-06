@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Rancho&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -15,8 +17,9 @@
     <title>Capstone Project</title>
   </head>
   <body>
+    <!-- Header Start-->
     <header>
-      <nav>FAKEBOOK</nav>
+      <nav><span class="title-span">Fakebook</span></nav>
 
       <h1 id="header-text">Connecting the world</h1>
       <p id="header-paragraph">
@@ -28,19 +31,76 @@
         <span id="header-button-text">Get started</span>
       </div>
     </header>
+    <!-- Header End-->
 
-    <section>
+    <!-- Hero Start -->
+    <section class="hero-section">
       <img src="/Assets/phone-mockup.png" alt="" id="main-img" />
 
-      <h2 id="main-header">
-        Focused on <span class="orange-span">Social</span>
-        <span class="green-span">Integrity</span>
-      </h2>
+      <div class="main-text-wrapper">
+        <h2 id="main-header">
+          Focused on <span class="orange">Social</span>
+          <span class="green">Integrity</span>
+        </h2>
 
-      <p class="main-paragraph">
-        Avoiding the sharing functionality, you can focus on showcasing your
-        best self without hesitation.
-      </p>
+        <p id="main-paragraph">
+          Avoiding the sharing functionality, you can focus on showcasing your
+          best self without hesitation.
+        </p>
+      </div>
     </section>
+    <!-- Hero End -->
+
+    <!-- Features Start -->
+    <section class="features">
+      <h2 id="features-title">Say hello to an open platform</h2>
+
+      <div class="features-flex-container">
+        <div class="feature-module">
+          <img class="feature-icon" src="/Assets/unity.png" alt="" />
+          <h3 class="feature-title orange">Unity</h3>
+          <p class="feature-text orange">
+            Ensuring peace of mind for all our users, share only what you want.
+            You are in full control of yourself with us.
+          </p>
+        </div>
+
+        <div class="feature-module">
+          <img class="feature-icon" src="/Assets/privacy.png" alt="" />
+          <h3 class="feature-title green">Privacy</h3>
+          <p class="feature-text green">
+            With limitless privacy toggle functionality, we will only ever use
+            your data to provide the best experience for you.
+          </p>
+        </div>
+
+        <div class="feature-module">
+          <img class="feature-icon" src="/Assets/clarity.png" alt="" />
+          <h3 class="feature-title yellow">Clarity</h3>
+          <p class="feature-text yellow">
+            We will always notify you of any changes affecting you, and will
+            never breach our promise of a clear, open newtwork.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Features End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <span class="title-span">fakebook</span>
+
+      <ul class="info-links">
+        <li><a class="site-link" href="#">Get started</a></li>
+        <li><a class="site-link" href="#">About</a></li>
+        <li><a class="site-link" href="#">Jobs</a></li>
+        <li><a class="site-link" href="#">Help</a></li>
+        <li><a class="site-link" href="#">Privacy Policy</a></li>
+        <li><a class="site-link" href="#">Cookies Policy</a></li>
+      </ul>
+
+      <span id="copyright-span">© Fakebook 2022</span>
+    </footer>
+    <!-- Footer End -->
   </body>
 </html>
