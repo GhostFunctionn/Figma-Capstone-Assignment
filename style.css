@@ -188,6 +188,7 @@ footer {
 }
 
 @media screen and (min-width: 912px) {
+  /* HEADER STYLE START */
   #title-span-top {
     display: block;
     color: #f14c36;
@@ -214,6 +215,8 @@ footer {
     letter-spacing: 0.15em;
     font-weight: 500;
   }
+
+  /* HEADER STYLE START */
 
   /* HERO SECTION STYLING START */
   .hero-section {
